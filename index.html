@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Issue Tracker</title>
+</head>
+<body class="box-border m-0 p-0">
+    <div class="container mx-auto mt-10 max-w-6xl w-full">
+        <h1 class="text-4xl bg-white pl-2 pb-3 font-bold">Issue Tracker</h1>
+        <div class="innerContainer bg-gray-300  p-7 w-7xl">
+            <h2 class=" pt-20 pb-5 text-2xl font-bold">Add New Issuse:</h2>
+            <form id="issueInputForm">
+                <div class="formSection">
+                    <label for="issueDescInput" class="block text-xl py-3">Description</label>
+                    <input type="text" class="w-full min-h-20 text-xl pl-4 rounded-lg" id="issueDescInput" placeholder="Describe the issue...">
+                </div>
+                <div class="formSection">
+                    <label for="issueSeverityInput" class="block text-xl py-3 ">Severity</label>
+                    <select class="w-full min-h-20 text-xl pl-4 rounded-lg" id="issueSeverityInput">
+                        <option value="Low">Low</option>
+                        <option value="Medium">Medium</option>
+                        <option value="High">High</option>
+                    </select>
+                </div>
+                <div class="formSection">
+                    <label for="issueAssignedToInput" class="block text-xl py-3">Assigned To</label>
+                    <input type="text" class="w-full min-h-20 text-xl pl-4 rounded-lg" id="issueAssignedToInput" placeholder="Enter responsible...">
+                </div>
+                <button type = "submit" class="bg-blue-700 text-white mt-7 py-3 px-6 text-2xl rounded-md">Add</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="container max-w-6xl  mt-10 mx-auto  ">
+        <div id="issueList">
+            <!-- Issues go here -->
+             
+        </div>
+    </div>
+<script src="script.js"></script>
+<!-- Only for ID generation -->
+<script src="https://chancejs.com/chance.min.js"></script>
+</body>
+</html>
