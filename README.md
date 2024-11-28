@@ -1,4 +1,4 @@
-Live Ddemo Link: https://ramazantk3.github.io/Issue-Tracker/
+Live Demo Link: https://ramazantk3.github.io/Issue-Tracker/
 
 ### Once again this project is based on a Youtube tutorial. However, I totally uniquely re-created the project. Original project in tutorial was made by Bootstrap and it was lacking arrow functions and template literals, also algoritms in js were a little different. So this project is actually unique. Only the idea and UI/UX design taken from the tutorial.
 
